@@ -1,0 +1,172 @@
+body{
+	margin: 0%;
+	padding: 0%;
+
+
+}
+
+/*NAV-----------------------------------------------------------------*/
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	background-color: #0E1010;
+	color: white;
+	border-bottom: 1px solid #272D2B;
+}
+nav h1{
+	font-style: italic;
+	font-weight: 400;
+}
+.navlinks{
+	display: flex;
+	padding-top:1.5rem ;
+}
+.navlinks li{
+	list-style: none;
+	margin-right: 1.5rem;
+}
+.navlinks a{
+	text-decoration: none;
+	color: #FFF;
+	font-family: 'Courier New', monospace;
+	font-size: 1.2rem;
+	font-weight: 400;
+	font-style: ;
+}
+.gtouch{
+	padding: 1rem;
+	border-radius: 41px;
+    background: #2F3634;
+}
+
+.togglebox{
+	display: flex;
+	float: right;
+	position: fixed;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #0E1010;
+/*	margin-right: 20%;*/
+	margin-left: 40%;
+	height: 500px;
+	border:1px solid #272D2B ;
+	z-index: 1;
+}
+.togglebox li{
+	list-style: none;
+	margin: 1.5rem;
+}
+#close{
+	color: white;
+}
+.togglebox a{
+	text-decoration: none;
+	color: #FFF;
+	font-family: 'Courier New', monospace;
+	font-size: 1.2rem;
+	font-weight: 400;
+	
+}
+.togglebox{
+		display: none;
+	}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+@media(min-width:744px){
+	#Menu{
+		display: none;
+	}
+
+}
+
+@media(max-width:744px){
+	#navli{
+		display: none;
+	}
+}
+
+/*CONTENT------------------------------------------------------------*/
+
+.contentarea{
+	background-color: #0E1010;
+	height: 5047px;
+}
+.contentarea h3{
+	font-style: italic;
+	font-weight: 800;
+	
+
+}
+p{
+
+font-weight: 600;
+font-size: 1rem;	
+
+}
+.greet{
+	display: flex;
+	justify-content: center;
+	
+
+}
+.greeting{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: white;
+	margin-top: 5%;
+	padding: 5%;
+	width: 83%%;
+	border-radius: 41px;
+}
+.connect{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15% ;
+}
+.connectlinks{
+	display: flex;
+}
+.connectlinks li{
+
+	list-style: none;
+	margin-right: 1.5rem;
+
+}
+.connectlinks a{
+	text-decoration: none;
+	color: #FFF;
+	font-family: 'Courier New', monospace;
+	font-size: 1rem;
+	font-weight: 400;
+	font-style: ;
+}
+.projectli{
+	padding: 1rem;
+	border-radius: 41px;
+    background: #2F3634;
+
+}
+@media(max-width:744px){
+	.connectlinks a{
+		font-size: 0.8rem;
+	}
+
+	.projectli{
+		font-size: 0.8rem;
+
+	}
+}
+
+.iconli{
+	color: black;
+	font-size: 1.5rem;
+	margin-left: 1rem;
+}

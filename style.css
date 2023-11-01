@@ -1,6 +1,13 @@
+html{
+	scroll-behavior: smooth;
+
+}
 body{
 	margin: 0%;
 	padding: 0%;
+	
+
+
 
 
 }
@@ -13,18 +20,23 @@ nav{
 	background-color: #0E1010;
 	color: white;
 	border-bottom: 1px solid #272D2B;
+
+	
 }
 nav h1{
 	font-style: italic;
 	font-weight: 400;
+
 }
 .navlinks{
 	display: flex;
 	padding-top:1.5rem ;
+
 }
 .navlinks li{
 	list-style: none;
 	margin-right: 1.5rem;
+
 }
 .navlinks a{
 	text-decoration: none;
@@ -32,12 +44,13 @@ nav h1{
 	font-family: 'Courier New', monospace;
 	font-size: 1.2rem;
 	font-weight: 400;
-	font-style: ;
+	
 }
 .gtouch{
 	padding: 1rem;
 	border-radius: 41px;
     background: #2F3634;
+
 }
 
 .togglebox{
@@ -52,10 +65,12 @@ nav h1{
 	height: 500px;
 	border:1px solid #272D2B ;
 	z-index: 1;
+
 }
 .togglebox li{
 	list-style: none;
 	margin: 1.5rem;
+
 }
 #close{
 	color: white;
@@ -73,6 +88,7 @@ nav h1{
 	}
 
 .material-symbols-outlined {
+
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
@@ -80,6 +96,14 @@ nav h1{
   'opsz' 24
 }
 @media(min-width:744px){
+
+	.navlinks{
+	display: flex;
+	padding-top:1.5rem;
+
+}
+
+
 	#Menu{
 		display: none;
 	}
@@ -95,12 +119,16 @@ nav h1{
 /*CONTENT------------------------------------------------------------*/
 
 .contentarea{
+	display: flex;
+	flex-direction: column;
 	background-color: #0E1010;
-	height: 5047px;
+
+
 }
 .contentarea h3{
 	font-style: italic;
 	font-weight: 800;
+
 	
 
 }
@@ -109,10 +137,14 @@ p{
 font-weight: 600;
 font-size: 1rem;	
 
+
 }
 .greet{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
+
+
 	
 
 }
@@ -123,13 +155,16 @@ font-size: 1rem;
 	background-color: white;
 	margin-top: 5%;
 	padding: 5%;
-	width: 83%%;
+	font-family: 'Courier New', monospace;
 	border-radius: 41px;
+
 }
 .connect{
 	display: flex;
 	justify-content: space-between;
 	margin-top: 15% ;
+
+
 }
 .connectlinks{
 	display: flex;
@@ -155,14 +190,36 @@ font-size: 1rem;
 
 }
 @media(max-width:744px){
+
+	.greeting{
+
+		width: 80%;
+
+	}
+
+	.connectlinks li{
+
+	list-style: none;
+	margin-right: 0.5rem;
+
+}
 	.connectlinks a{
-		font-size: 0.8rem;
+		font-size: 0.7rem;
+		padding: 0.5rem;
 	}
 
 	.projectli{
-		font-size: 0.8rem;
+		font-size: 0.7rem;
+		padding: 0.5rem;
 
 	}
+
+	.iconli{
+	color: black;
+	font-size: 1rem;
+	margin-left: 1rem;
+}
+
 }
 
 .iconli{
@@ -170,3 +227,48 @@ font-size: 1rem;
 	font-size: 1.5rem;
 	margin-left: 1rem;
 }
+
+/*ABOUT----------------------------------------------------------------------*/
+
+.about{
+	display: flex;
+	margin-top: 10%;
+	justify-content: center;
+	color:white;
+	margin-left: 30%;
+	margin-right: 30%;
+	
+	
+}
+.description{
+	font-family: 'Courier New', monospace;
+}
+.aboutme{
+	font-style: italic;
+	font-weight: 400;
+	font-size: 2rem;
+	margin: 1.5rem;
+
+}
+@media(max-width:744px){
+
+	.about{
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 80%;
+
+	}
+
+	.aboutme{
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2rem;
+	margin: 1rem;
+
+}
+
+
+}
+
+/*Project--------------------------------------------------------------------*/
+

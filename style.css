@@ -52,6 +52,13 @@ nav h1{
     background: #2F3634;
 
 }
+@media(max-width:365px){
+
+	.navlinks a{
+		font-size: 0.5rem;
+	}
+
+}
 
 .togglebox{
 	display: flex;
@@ -82,6 +89,16 @@ nav h1{
 	font-size: 1.2rem;
 	font-weight: 400;
 	
+}
+@media(max-width:365px){
+	.togglebox a{
+		font-size: 80%;
+	}
+}
+@media(max-width:289px){
+	.togglebox a{
+		font-size: 75%;
+	}
 }
 .togglebox{
 		display: none;
@@ -189,6 +206,15 @@ font-size: 1rem;
     background: #2F3634;
 
 }
+@media(max-width:335){
+
+	.projectli{
+		font-size: 0.5rem;
+		padding: 0.3rem;
+
+	}
+
+}
 @media(max-width:744px){
 
 	.greeting{
@@ -220,6 +246,12 @@ font-size: 1rem;
 	margin-left: 1rem;
 }
 
+
+}
+@media(max-width:335px){
+	.connectlinks a{
+		font-size: 0.5rem !important;
+	}
 }
 
 .iconli{
